@@ -1,3 +1,24 @@
 body {
   background: peachpuff;
 }
+
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.top-left-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+
+.top-left-image img {
+  width: 100px;
+  height: auto;
+}
